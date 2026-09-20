@@ -1,12 +1,12 @@
 # Gemini Location Leak Removal - Extension
 
-Very basic (optimized enough) extension to hide your location on the navbar at the bottom
+A very simple (but sufficiently optimized) extension that hides your location on the navigation bar at the bottom of the screen
 
-What permission does this extensions needs?
+What permissions does this extension require?
 
-- "JS Injection" it runs very simple script to hook into crazy a$$ (React, Agular, or tf they use) to hide location like elements
+- "JS Injection" runs a very simple script that hooks into those crazy frameworks (React, Angular, or whatever else they use) and hides location-related elements.
 
-Does the script reads your personal data?
+Does the script read your personal data?
 
-- Hell nah, who do you think you are? Do i really care about your data, do you really thing so?
-- (nah, i do really not not nor the script)
+- No way, who do you think you are? Do you really think I’m interested in your data? Do you really think that?
+- (No, I'm really not interested, and neither is the script.)
