@@ -1,0 +1,30 @@
+{
+    "manifest_version": 3,
+    "name": "Gemini LLR",
+    "version": "1.0.0",
+    "description": "Gemini Location Leak Removal - Say stop to slop",
+    "icons": {
+        "16": "icons/16.png",
+        "32": "icons/32.png",
+        "64": "icons/64.png",
+        "128": "icons/128.png",
+        "256": "icons/256.png"
+    },
+    "host_permissions": [
+        "https://*.gemini.google.com/*",
+        "https://*.gemini.app/*"
+    ],
+    "content_scripts": [
+        {
+            "matches": [
+                "https://*.gemini.google.com/*",
+                "https://*.gemini.app/*"
+            ],
+            "js": ["client_script.js"],
+            "type": "module",
+            "all_frames": false,
+            "world": "MAIN",
+            "run_at": "document_end"
+        }
+    ]
+}

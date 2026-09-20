@@ -1,0 +1,9 @@
+{
+	"devDependencies": {
+		"typescript": "^7.0.2",
+		"rolldown": "^1.2.9",
+		"oxlint": "^1.83.0",
+		"oxfmt": "^0.68.0",
+		"chrome-types": "^0.1.447"
+	}
+}
